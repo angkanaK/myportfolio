@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 40px;
+    background-color: #343636;
+    color: #D3978F;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+section{
+    display: none;
+}
+.active{
+    display: block;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
